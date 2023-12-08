@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
+    <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-java11-example</artifactId>
     <version>1.0.0</version>
 
@@ -14,11 +14,13 @@
         <!-- Use the latest Spring Boot version compatible with Java 11 -->
         <version>2.5.0</version>
     </parent>
-
+     
     <properties>
         <!-- Set Java version to 11 -->
         <java.version>11</java.version>
     </properties>
+    
+    <packaging>war</packaging>
 
     <dependencies>
         <!-- Spring Boot Starter Web for building web applications -->
